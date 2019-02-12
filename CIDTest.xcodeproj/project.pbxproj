@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26320BBC221294DA00A2E9EE /* ViewControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 26320BBB221294DA00A2E9EE /* ViewControllerTest.m */; };
 		2694A51E221111CA00C6F51C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2694A51D221111CA00C6F51C /* AppDelegate.m */; };
 		2694A521221111CA00C6F51C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2694A520221111CA00C6F51C /* ViewController.m */; };
 		2694A524221111CA00C6F51C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2694A522221111CA00C6F51C /* Main.storyboard */; };
 		2694A526221111CC00C6F51C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2694A525221111CC00C6F51C /* Assets.xcassets */; };
 		2694A529221111CC00C6F51C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2694A527221111CC00C6F51C /* LaunchScreen.storyboard */; };
 		2694A52C221111CC00C6F51C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2694A52B221111CC00C6F51C /* main.m */; };
-		2694A536221111CC00C6F51C /* CIDTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2694A535221111CC00C6F51C /* CIDTestTests.m */; };
 		2694A541221111CC00C6F51C /* CIDTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2694A540221111CC00C6F51C /* CIDTestUITests.m */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		26320BBB221294DA00A2E9EE /* ViewControllerTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerTest.m; sourceTree = "<group>"; };
 		2694A519221111CA00C6F51C /* CIDTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CIDTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2694A51C221111CA00C6F51C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2694A51D221111CA00C6F51C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -46,7 +47,6 @@
 		2694A52A221111CC00C6F51C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2694A52B221111CC00C6F51C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2694A531221111CC00C6F51C /* CIDTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CIDTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2694A535221111CC00C6F51C /* CIDTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CIDTestTests.m; sourceTree = "<group>"; };
 		2694A537221111CC00C6F51C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2694A53C221111CC00C6F51C /* CIDTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CIDTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2694A540221111CC00C6F51C /* CIDTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CIDTestUITests.m; sourceTree = "<group>"; };
@@ -117,8 +117,8 @@
 		2694A534221111CC00C6F51C /* CIDTestTests */ = {
 			isa = PBXGroup;
 			children = (
-				2694A535221111CC00C6F51C /* CIDTestTests.m */,
 				2694A537221111CC00C6F51C /* Info.plist */,
+				26320BBB221294DA00A2E9EE /* ViewControllerTest.m */,
 			);
 			path = CIDTestTests;
 			sourceTree = "<group>";
@@ -272,7 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2694A536221111CC00C6F51C /* CIDTestTests.m in Sources */,
+				26320BBC221294DA00A2E9EE /* ViewControllerTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
