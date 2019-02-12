@@ -78,17 +78,4 @@
     XCTAssert(object, @"non nil should be true");
 }
 
-- (void)testThatItDoesURLEncoding
-{
-    //given
-    NSString *searchQuery = @"$#%";
-    
-    // when
-    NSString *encodedURL = request.URL;
-    
-    XCTAssertEqualObjects(encodedURL, @"/search?q=%24%26%2F%40");
-}
-
-
-
 @end
