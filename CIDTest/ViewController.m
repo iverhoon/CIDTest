@@ -18,7 +18,7 @@
     [super viewDidLoad];
     
     
-    NSLog(@"First Commit.");
+    NSLog(@"It is really first time commit.");
     // Do any additional setup after loading the view, typically from a nib.
 }
 
