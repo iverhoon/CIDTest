@@ -20,6 +20,7 @@
     
     NSLog(@"It is really first time commit.");
     NSLog(@"It is second time commit.");
+    NSLog(@"It is third time commit.");
     // Do any additional setup after loading the view, typically from a nib.
 }
 
